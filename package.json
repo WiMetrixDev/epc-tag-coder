@@ -1,0 +1,43 @@
+{
+	"name": "epc-tag-coder",
+	"version": "0.1.0",
+	"description": "EPC Tag Encoding & Conversion Library",
+	"main": "build/index.js",
+	"types": "build/index.d.ts",
+	"scripts": {
+		"build": "expo-module build",
+		"clean": "expo-module clean",
+		"lint": "expo-module lint",
+		"test": "expo-module test",
+		"prepare": "expo-module prepare",
+		"prepublishOnly": "expo-module prepublishOnly",
+		"expo-module": "expo-module",
+		"open:ios": "xed example/ios",
+		"open:android": "open -a \"Android Studio\" example/android"
+	},
+	"keywords": [
+		"react-native",
+		"expo",
+		"epc-tag-coder",
+		"EPCTagCoder"
+	],
+	"repository": "https://github.com/WiMetrixDev/epc-tag-coder",
+	"bugs": {
+		"url": "https://github.com/WiMetrixDev/epc-tag-coder/issues"
+	},
+	"author": "mbm_1607 <muhammadkhan1607@gmail.com> (https://github.com/MBM1607)",
+	"license": "MIT",
+	"homepage": "https://github.com/WiMetrixDev/epc-tag-coder#readme",
+	"dependencies": {},
+	"devDependencies": {
+		"@types/react": "^18.0.25",
+		"expo-module-scripts": "^3.5.2",
+		"expo-modules-core": "^1.12.24"
+	},
+	"peerDependencies": {
+		"expo": "*",
+		"react": "*",
+		"react-native": "*"
+	},
+	"packageManager": "yarn@4.5.0"
+}
