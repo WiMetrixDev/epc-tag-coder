@@ -40,13 +40,14 @@ android {
   lintOptions {
     abortOnError false
   }
-  sourceSets {
-    main {
-      jniLibs.srcDirs = ['libs']
-    }
-  }
+}
+
+repositories {
+	flatDir {
+		dirs 'libs'
+	}
 }
 
 dependencies {
-  implementation (files("libs/epctagcoder.jar"))
+	implementation fileTree(dir: 'libs', include: ['*.jar'])
 }
