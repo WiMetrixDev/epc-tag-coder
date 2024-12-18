@@ -1,0 +1,10 @@
+{
+	"extends": "expo/tsconfig.base",
+	"compilerOptions": {
+		"strict": true,
+		"paths": {
+			"epc-tag-coder": ["../src/index"],
+			"epc-tag-coder/*": ["../src/*"]
+		}
+	}
+}
