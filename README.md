@@ -28,8 +28,8 @@ yarn add epc-tag-coder
 ### `convertEPCToUPC`
 
 ```typescript
-import { convertEPCToUPC } from "./modules/epc-tag-coder";
+import EPCTagCoder from "./modules/epc-tag-coder";
 
-const upc = convertEPCToUPC("30340C04543AECD74877C4B8");
+const upc = EPCTagCoder.convertEPCToUPC("30340C04543AECD74877C4B8");
 // upc = '196885603396'
 ```

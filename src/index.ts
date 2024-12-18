@@ -1,5 +1,2 @@
-import EPCTagCoderModule from "./EPCTagCoderModule";
-
-export function convertEPCToUPC(epc: string): string {
-	return EPCTagCoderModule.convertEPCToUPC(epc);
-}
+// Re-export the native module.
+export { default } from "./EPCTagCoderModule";
