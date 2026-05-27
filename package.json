@@ -1,5 +1,5 @@
 {
-	"name": "epc-tag-coder",
+	"name": "@wimetrix/epc-tag-coder",
 	"version": "1.0.0",
 	"description": "EPC Tag Encoding & Conversion Library",
 	"main": "build/index.js",
@@ -21,13 +21,6 @@
 		"epc-tag-coder",
 		"EPCTagCoder"
 	],
-	"repository": "https://github.com/WiMetrixDev/epc-tag-coder",
-	"bugs": {
-		"url": "https://github.com/WiMetrixDev/epc-tag-coder/issues"
-	},
-	"author": "mbm_1607 <muhammadkhan1607@gmail.com> (https://github.com/MBM1607)",
-	"license": "MIT",
-	"homepage": "https://github.com/WiMetrixDev/epc-tag-coder#readme",
 	"dependencies": {},
 	"devDependencies": {
 		"@types/react": "~18.3.12",
@@ -40,5 +33,10 @@
 		"react": "*",
 		"react-native": "*"
 	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/WiMetrixDev/epc-tag-coder"
+	},
+	"license": "MIT",
 	"packageManager": "yarn@4.5.0"
 }
